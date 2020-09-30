@@ -1,9 +1,15 @@
-# Codesandbox templates
+# Sandboxes
 
-Templates for various codesandbox setups.
+Various development setups for creating a sandbox in NPM, Docker container or Codesandbox.
 
 <br>
 
-## Templates
+## Setups
 
-[HTML](https://githubbox.com/johanwestling/codesandbox-templates/tree/master/html)
+### HTML
+
+**Codesandbox:** 
+_(requires a codesandbox account)_
+```
+https://githubbox.com/johanwestling/sandboxes/tree/master/html
+```
