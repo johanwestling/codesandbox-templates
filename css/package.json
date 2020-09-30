@@ -1,7 +1,7 @@
 {
-  "name": "html-sandbox",
+  "name": "sandboxes-css",
   "version": "1.0.0",
-  "description": "Sandbox for HTML exercises",
+  "description": "Sandbox for CSS development",
   "main": "src/index.html",
   "scripts": {
     "start": "snowpack dev",

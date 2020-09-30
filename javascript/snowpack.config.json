@@ -1,0 +1,8 @@
+{
+  "mount": {
+    "src": "/"
+  },
+  "devOptions": {
+    "port": 3003
+  }
+}
