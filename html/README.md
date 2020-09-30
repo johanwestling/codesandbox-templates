@@ -2,6 +2,8 @@
 
 This is the development setup focused primarily on HTML development. It uses Snowpack to allow Hot Module Replacement (HMR) to get live reloading in the browser.
 
+<br>
+
 ## Node.js
 
 Follow these procedures to install the development setup directly in your local machine.

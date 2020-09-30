@@ -13,6 +13,7 @@ These development setups require one of the following to be able to run.
   Terminal with node version 12 or newer.
 
   ```bash
+  # Check node version.
   node -v
   ```
 
@@ -23,6 +24,7 @@ These development setups require one of the following to be able to run.
   Terminal with docker version 19 or newer.
 
   ```bash
+  # Check docker version.
   docker -v
   ```
 
@@ -39,3 +41,5 @@ These development setups require one of the following to be able to run.
 ## Setups
 
 * [HTML](./html/README.md)
+
+<br>
