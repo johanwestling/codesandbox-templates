@@ -1,0 +1,16 @@
+{
+  "name": "html-sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox for HTML exercises",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "build-watch": "snowpack build --watch"
+  },
+  "author": "Johan Westling",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^2.12.1"
+  }
+}
