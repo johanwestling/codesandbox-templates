@@ -42,5 +42,6 @@ These development setups require one of the following to be able to run.
 
 * [HTML](./html/README.md)
 * [CSS](./css/README.md)
+* [JavaScript](./javascript/README.md)
 
 <br>
