@@ -1,8 +1,5 @@
 {
   "mount": {
     "src": "/"
-  },
-  "devOptions": {
-    "port": 80
   }
 }
