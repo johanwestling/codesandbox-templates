@@ -31,13 +31,10 @@ cd path/to/sandboxes/css
 docker build -t "sandboxes/css" "."
 
 # Create the docker container.
-docker run --name "sandboxes-css" -v "$PWD/src:/usr/sandbox/css/src" -p "8080:8080" --rm -td "sandboxes/css"
+docker stop "sandboxes-css"; docker run --name "sandboxes-css" -v "$PWD/src:/usr/sandbox/css/src" -p "3002:3002" --rm -td "sandboxes/css"
 
-# Connect to the docker container.
-docker exec -it "sandboxes-css" /bin/bash
-
-# Starts the development server (within the docker container).
-npm start
+# Connect to the docker container & start the development server.
+docker exec -it "sandboxes-css" /bin/bash -c "npm start"
 ```
 
 ## Codesandbox
