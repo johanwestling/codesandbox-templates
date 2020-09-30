@@ -31,7 +31,7 @@ cd path/to/sandboxes/html
 docker build -t "sandboxes/html" "."
 
 # Create the docker container.
-docker run --name "sandboxes-html" -v "$PWD/src:/usr/sandbox/html/src" -p "80:8080" --rm -td "sandboxes/html"
+docker run --name "sandboxes-html" -v "$PWD/src:/usr/sandbox/html/src" -p "8080:8080" --rm -td "sandboxes/html"
 
 # Connect to the docker container.
 docker exec -it "sandboxes-html" /bin/bash
