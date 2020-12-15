@@ -5,6 +5,7 @@
   "main": "src/index.html",
   "scripts": {
     "start": "snowpack dev",
+    "dev": "npm run start",
     "build": "snowpack build",
     "build-watch": "snowpack build --watch"
   },
